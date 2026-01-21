@@ -44,7 +44,7 @@ The dataset consists of **500 individual customers**, each represented by a sing
 
 📷 **Dataset Preview**
 
-![Dataset Overview](images/dataset_overview.png)
+<img width="736" height="273" alt="Ekran Resmi 2026-01-21 14 57 25" src="https://github.com/user-attachments/assets/ddf42f15-4f63-45a1-a07e-8321e1dc9a0b" />
 
 ---
 
@@ -71,7 +71,8 @@ customer spending.
 
 ### Correlation Analysis
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+<img width="769" height="667" alt="Unknown-1" src="https://github.com/user-attachments/assets/b9592bf5-452e-4946-b452-0c6bc541c492" />
+
 
 Key observations:
 - **Length of Membership** shows the strongest correlation with spending
@@ -81,7 +82,7 @@ Key observations:
 
 ### Feature Relationships
 
-![Pairplot](images/pairplot.png)
+<img width="1228" height="1228" alt="Unknown" src="https://github.com/user-attachments/assets/204c162b-8b14-4e3d-9848-ea0ff3b451dd" />
 
 From pairwise relationships:
 - Spending increases noticeably with membership length
@@ -118,7 +119,7 @@ Model performance was evaluated using standard regression metrics:
 
 ### Actual vs Predicted Values
 
-![Actual vs Predicted](images/actual_vs_predicted.png)
+<img width="784" height="584" alt="Unknown-2" src="https://github.com/user-attachments/assets/075df3f8-acd6-4982-bf47-a6b583bc0d63" />
 
 Interpretation:
 - Predictions align closely with actual values
@@ -133,14 +134,14 @@ Residual analysis was conducted to validate model assumptions.
 
 ### Residual Distribution
 
-![Residual Distribution](images/residual_distribution.png)
+<img width="613" height="473" alt="Unknown-3" src="https://github.com/user-attachments/assets/2f587394-7613-4850-85fd-6b90d22e231d" />
 
 - Residuals are centered around zero
 - Distribution is approximately normal
 
 ### Residuals vs Predictions
 
-![Residuals vs Predictions](images/residuals_vs_predictions.png)
+<img width="622" height="473" alt="Unknown-4" src="https://github.com/user-attachments/assets/aa191659-aa63-4153-803e-fda5dd281622" />
 
 - No clear pattern observed
 - Suggests absence of systematic bias in predictions
