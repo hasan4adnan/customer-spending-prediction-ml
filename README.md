@@ -215,20 +215,39 @@ jupyter notebook notebooks/01_ecommerce_linear_regression.ipynb
 
 ## 📁 Project Structure
 
-ecommerce-customer-spending-analysis/
+customer-spending-prediction-ml/
 │
 ├── data/
 │   └── EcommerceCustomers.csv
+│       # Raw dataset containing customer behavior and yearly spending information
+│
+├── images/
+│   ├── ActualVsPredictedSpending.png
+│   │   # Seaborn visualization comparing actual vs predicted spending values
+│   ├── CorrelationMatrix.png
+│   │   # Correlation heatmap of numerical features
+│   ├── DatasetStructure.png
+│   │   # Overview of dataset structure and columns
+│   ├── ExploratoryDataAnalysis.png
+│   │   # Key EDA visualizations
+│   ├── ResidualDistribution.png
+│   │   # Distribution of residuals from the regression model
+│   └── ResidualsVsPredictedValues.png
+│       # Residuals plotted against predicted values
 │
 ├── notebooks/
 │   └── 01_ecommerce_linear_regression.ipynb
-│
-├── images/
-│   └── *.png
+│       # Main Jupyter Notebook containing EDA, modeling, evaluation, and insights
 │
 ├── README.md
+│   # Comprehensive project documentation and results
+│
 ├── requirements.txt
+│   # Python dependencies required to run the project
+│
 └── .gitignore
+    # Files and folders excluded from version control
+
 
 ## 👤 Author
 
