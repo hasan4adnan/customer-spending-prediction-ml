@@ -208,12 +208,19 @@ Future work could involve:
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
+   
    pip install -r requirements.txt
+   
    ```bash
-3. Launch the notebook: 
+   
+3. Launch the notebook:
+   
     ```bash
+    
    jupyter notebook notebooks/01_ecommerce_linear_regression.ipynb
+
     ```bash
 
 ## 📁 Project Structure
