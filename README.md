@@ -1,4 +1,7 @@
 # Ecommerce Customer Spending Analysis
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_xjngw2xjngw2xjng" src="https://github.com/user-attachments/assets/9ca19e21-d7c9-42ae-bd21-cd725f10f73b" />
+
 ## Linear Regression for Business Decision-Making
 
 This repository contains a complete **end-to-end data analysis and machine learning project**
