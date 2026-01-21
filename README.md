@@ -213,7 +213,6 @@ Future work could involve:
    
    pip install -r requirements.txt
    
-   ```bash
    
 3. Launch the notebook:
    
@@ -221,45 +220,45 @@ Future work could involve:
     
    jupyter notebook notebooks/01_ecommerce_linear_regression.ipynb
 
-    ```bash
+    
 
 ## 📁 Project Structure
+```bash
+   customer-spending-prediction-ml/
+   │   
+   ├── data/
+   │   └── EcommerceCustomers.csv
+   │       # Raw dataset containing customer behavior and yearly spending information
+   │
+   ├── images/
+   │   ├── ActualVsPredictedSpending.png
+   │   │   # Seaborn visualization comparing actual vs predicted spending values
+   │   ├── CorrelationMatrix.png
+   │   │   # Correlation heatmap of numerical features
+   │   ├── DatasetStructure.png
+   │   │   # Overview of dataset structure and columns
+   │   ├── ExploratoryDataAnalysis.png
+   │   │   # Key EDA visualizations
+   │   ├── ResidualDistribution.png
+   │   │   # Distribution of residuals from the regression model
+   │   └── ResidualsVsPredictedValues.png
+   │       # Residuals plotted against predicted values
+   │
+   ├── notebooks/
+   │   └── 01_ecommerce_linear_regression.ipynb
+   │       # Main Jupyter Notebook containing EDA, modeling, evaluation, and insights
+   │
+   ├── README.md
+   │   # Comprehensive project documentation and results
+   │
+   ├── requirements.txt
+   │   # Python dependencies required to run the project
+   │
+   └── .gitignore
+       # Files and folders excluded from version control
 
-customer-spending-prediction-ml/
-│
-├── data/
-│   └── EcommerceCustomers.csv
-│       # Raw dataset containing customer behavior and yearly spending information
-│
-├── images/
-│   ├── ActualVsPredictedSpending.png
-│   │   # Seaborn visualization comparing actual vs predicted spending values
-│   ├── CorrelationMatrix.png
-│   │   # Correlation heatmap of numerical features
-│   ├── DatasetStructure.png
-│   │   # Overview of dataset structure and columns
-│   ├── ExploratoryDataAnalysis.png
-│   │   # Key EDA visualizations
-│   ├── ResidualDistribution.png
-│   │   # Distribution of residuals from the regression model
-│   └── ResidualsVsPredictedValues.png
-│       # Residuals plotted against predicted values
-│
-├── notebooks/
-│   └── 01_ecommerce_linear_regression.ipynb
-│       # Main Jupyter Notebook containing EDA, modeling, evaluation, and insights
-│
-├── README.md
-│   # Comprehensive project documentation and results
-│
-├── requirements.txt
-│   # Python dependencies required to run the project
-│
-└── .gitignore
-    # Files and folders excluded from version control
 
-
-## 👤 Author
+## Author
 
 This project was created as a portfolio-level data science project to demonstrate
 practical application of machine learning for business decision-making.
