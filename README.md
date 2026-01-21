@@ -213,7 +213,7 @@ Future work could involve:
    ```bash
 3. Launch the notebook: 
     ```bash
-jupyter notebook notebooks/01_ecommerce_linear_regression.ipynb
+   jupyter notebook notebooks/01_ecommerce_linear_regression.ipynb
     ```bash
 
 ## 📁 Project Structure
